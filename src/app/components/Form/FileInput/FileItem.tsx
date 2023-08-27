@@ -87,7 +87,7 @@ export function FileItem({ name, size, state }: FileItemProps) {
         </div>
       )}
       {state === 'complete' ? (
-        <CheckCircle2 className="h-5 w-5 text-violet-600 text-white dark:text-zinc-300" />
+        <CheckCircle2 className="h-5 w-5 text-violet-600  dark:text-zinc-300" />
       ) : (
         <Button type="button" variant="ghost" className={deleteButton()}>
           <Trash2 className="h-5 w-5" />
