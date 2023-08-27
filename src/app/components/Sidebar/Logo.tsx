@@ -1,7 +1,7 @@
 // https://transform.tools to generate this svg
 export function Logo() {
   return (
-    <strong className="mx-1 flex items-center gap-2 text-xl font-semibold text-zinc-950">
+    <strong className="mx-1 flex items-center gap-2 text-xl font-semibold text-zinc-950 dark:text-zinc-100">
       <svg
         width="40px"
         height="40px"
